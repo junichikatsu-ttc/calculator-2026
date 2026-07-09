@@ -1,4 +1,4 @@
-import sum from '../utils/sum';
+im port sum from '../utils/sum';
 
 describe('sumのテスト', () => {
   test('合計値が正しい', () => {
