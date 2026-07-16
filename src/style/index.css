@@ -42,7 +42,7 @@ body,
 .calc .input .operators {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: 3fr 1fr;
   border-left: solid 2px #929292;
   margin-left: 3px;
   padding-left: 3px;
