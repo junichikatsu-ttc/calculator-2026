@@ -8,7 +8,7 @@ interface Props {
 
 export const PlusButton: React.FunctionComponent<Props> = ({ onClick, label, disabled }: Props) =>{
   return (
-    <button onClick={onClick} disabled={disabled} style={{height:'400%', fontSize:"65px"}}>
+    <button onClick={onClick} disabled={disabled} style={{height:'100%', fontSize:"65px"}}>
       {label}
     </button>
   );
