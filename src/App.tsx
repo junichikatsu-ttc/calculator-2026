@@ -20,6 +20,11 @@ const App: React.FunctionComponent = () => {
       setOpe(key);
     } else if (key === '=') {
       setResult(String(sum(Number(left), Number(right))));
+    } else if (key === 'C') {
+      setLeft('');
+      setRight('');
+      setOpe('');
+      setResult('');
     }
   };
   return (
@@ -41,6 +46,12 @@ const App: React.FunctionComponent = () => {
           ))}
         </div>
         <div className="operators">
+          <Button
+            onClick={() => {
+              onClick('C');
+            }}
+            label={'C'}
+          />
           <PlusButton
             onClick={() => {
               onClick('+');
